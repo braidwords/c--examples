@@ -141,6 +141,8 @@
   <ItemGroup>
     <ClCompile Include="constExamples\constConceptExamples.cpp" />
     <ClCompile Include="referenceVariableExample\referenceVariableExample.cpp" />
+    <ClCompile Include="referenceVariableExample\methodReturningReference.cpp" />
+    <ClCompile Include="referenceVariableExample\swapVariables.cpp" />
     <ClCompile Include="src\c++-examples.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

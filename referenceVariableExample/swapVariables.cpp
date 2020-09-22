@@ -1,4 +1,4 @@
-/*in C++, we can actually pass values by three methods:
+/*in C++, we can actually pass parameters to a function by three methods:
 1. Pass by value
 2. Pass by address
 3. Pass by reference*/
@@ -8,7 +8,7 @@
 class swapVariables
 {
 public:
-    void swapNumbers(int &a, int &b)
+    void swapNumbers(int a, int b)
     {
         int temp;
         temp = a;

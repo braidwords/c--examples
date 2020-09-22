@@ -24,5 +24,11 @@
     <ClCompile Include="referenceVariableExample\referenceVariableExample.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="referenceVariableExample\swapVariables.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="referenceVariableExample\methodReturningReference.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
