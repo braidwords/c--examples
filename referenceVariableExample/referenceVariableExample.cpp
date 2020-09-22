@@ -3,6 +3,12 @@ In other words, this reference variable refers to this existing variable*/
 
 /*In a class, by default variables and methods are private*/
 
+/*Few rules associated to refrence variables in C++ are:
+1. We must initialize a refernce variable. You cannot do like this: int& myRef; 
+2. Reference variable is a fixed connection. This mean that you cannot re-initialize it. 
+3. A reference variable cannot be null. You cannot do like this: int& myRef= null;
+4. You cannot create a narray of reference variables.*/
+
 #include<iostream>
 
 class referenceVariableExample {
@@ -22,8 +28,6 @@ public:
 
      std::cout << "Reference variable value is: " << myRef << std::endl;
      std::cout << "Variable is: " << myVar << std::endl;
-     
-
     }
 
 };
