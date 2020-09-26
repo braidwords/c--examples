@@ -7,6 +7,7 @@
 #include "../referenceVariableExample/methodReturningReference.cpp"
 #include "../structExamples/oddEven.cpp"
 
+/*Function defined to return a struct(two variables*/
 myStruct findEvenOdd(int number1, int number2)
 {
     myStruct s;
@@ -43,7 +44,8 @@ int main()
     result = methodObject.sum(a, b);
     std::cout << "The sum of the numbers is: " << result << std::endl;
 
-    /*4. Creating an object of struct oddEven to see how multiple values are returned using a structure in C++*/
+    /*4. Creating an object of struct oddEven to see how multiple values are returned using a structure in C++
+    Function findEvenOdd has been declared above for this */
     myStruct s;
     s=findEvenOdd(a, 33);
     std::cout << "Even number is: " << s.evenNumber << std::endl;;
