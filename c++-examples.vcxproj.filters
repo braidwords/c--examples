@@ -30,5 +30,11 @@
     <ClCompile Include="referenceVariableExample\methodReturningReference.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="HackerRank\Source.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="structExamples\oddEven.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

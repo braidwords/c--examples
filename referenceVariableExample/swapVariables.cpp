@@ -8,7 +8,7 @@
 class swapVariables
 {
 public:
-    void swapNumbers(int a, int b)
+    void swapNumbers(int&a, int&b)
     {
         int temp;
         temp = a;
