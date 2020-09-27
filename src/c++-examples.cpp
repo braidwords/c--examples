@@ -53,7 +53,7 @@ int main()
     std::cout << "Odd number is: " << s.oddNumber << std::endl;
 
     /*5. Trying to return double of numbers passed to the function through a loop, storing it in a vector and then printing the results from the vector*/
-    vectorExample vectorExample;
+    vectorExample vectorExample; //created an object of the class vectorExample
     for (int i = 0; i < 5; i++)
     {
         int doubleResults = vectorExample.doubleOfNumber(i);
