@@ -6,6 +6,7 @@
 #include "../referenceVariableExample/swapVariables.cpp"
 #include "../referenceVariableExample/methodReturningReference.cpp"
 #include "../structExamples/oddEven.cpp"
+#include "../vectorExamples/vectorExample.cpp"
 
 /*Function defined to return a struct(two variables*/
 myStruct findEvenOdd(int number1, int number2)
@@ -48,9 +49,20 @@ int main()
     Function findEvenOdd has been declared above for this */
     myStruct s;
     s=findEvenOdd(a, 33);
-    std::cout << "Even number is: " << s.evenNumber << std::endl;;
-    std::cout << "Odd number is: " << s.oddNumber << std::endl;;
+    std::cout << "Even number is: " << s.evenNumber << std::endl;
+    std::cout << "Odd number is: " << s.oddNumber << std::endl;
+
+    /*5. Trying to return double of numbers passed to the function through a loop, storing it in a vector and then printing the results from the vector*/
+    vectorExample vectorExample;
+    for (int i = 0; i < 5; i++)
+    {
+        int doubleResults = vectorExample.doubleOfNumber(i);
+        vectorExample.storeResults(doubleResults);
+    }
+    vectorExample.printResults();
 
 }
+
+
 
 

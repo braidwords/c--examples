@@ -146,6 +146,7 @@
     <ClCompile Include="referenceVariableExample\swapVariables.cpp" />
     <ClCompile Include="src\c++-examples.cpp" />
     <ClCompile Include="structExamples\oddEven.cpp" />
+    <ClCompile Include="vectorExamples\vectorExample.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
