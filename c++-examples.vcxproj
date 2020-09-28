@@ -141,6 +141,7 @@
   <ItemGroup>
     <ClCompile Include="constExamples\constConceptExamples.cpp" />
     <ClCompile Include="HackerRank\Source.cpp" />
+    <ClCompile Include="inheritanceExamples\virtualFunctionExample.cpp" />
     <ClCompile Include="referenceVariableExample\referenceVariableExample.cpp" />
     <ClCompile Include="referenceVariableExample\methodReturningReference.cpp" />
     <ClCompile Include="referenceVariableExample\swapVariables.cpp" />

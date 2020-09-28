@@ -39,5 +39,8 @@
     <ClCompile Include="vectorExamples\vectorExample.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="inheritanceExamples\virtualFunctionExample.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

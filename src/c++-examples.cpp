@@ -7,6 +7,7 @@
 #include "../referenceVariableExample/methodReturningReference.cpp"
 #include "../structExamples/oddEven.cpp"
 #include "../vectorExamples/vectorExample.cpp"
+#include "../inheritanceExamples/virtualFunctionExample.cpp"
 
 /*Function defined to return a struct(two variables*/
 myStruct findEvenOdd(int number1, int number2)
@@ -61,6 +62,13 @@ int main()
     }
     vectorExample.printResults();
 
+    /*6. Inheritance and virtual funtions concept*/
+
+    inheritanceBaseClass *baseclassptr; //base class pointer 
+    inheritanceSubClass subclassRef; //sub class reference 
+    baseclassptr = &subclassRef; //base class pointer is pointing to the subclass 
+    baseclassptr->printName(); //Early Binding will happen here
+    baseclassptr->show(); //Late Binding will happen here 
 }
 
 
