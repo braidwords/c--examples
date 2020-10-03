@@ -1,5 +1,5 @@
 // c++-examples.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
+
 
 #include <iostream>
 #include "../referenceVariableExample/referenceVariableExample.cpp"
@@ -8,7 +8,6 @@
 #include "../structExamples/oddEven.cpp"
 #include "../vectorExamples/vectorExample.cpp"
 #include "../inheritanceExamples/virtualFunctionExample.cpp"
-#include "../addDigits/addDigits.cpp"
 
 /*Function defined to return a struct(two variables)*/
 myStruct findEvenOdd(int number1, int number2)
@@ -50,7 +49,7 @@ int main()
     /*4. Creating an object of struct oddEven to see how multiple values are returned using a structure in C++
     Function findEvenOdd has been declared above for this */
     myStruct s;
-    s=findEvenOdd(a, 33);
+    s = findEvenOdd(a, 33);
     std::cout << "Even number is: " << s.evenNumber << std::endl;
     std::cout << "Odd number is: " << s.oddNumber << std::endl;
 
@@ -65,15 +64,11 @@ int main()
 
     /*6. Inheritance and virtual functions concept*/
 
-    inheritanceBaseClass *baseclassptr; //base class pointer 
+    inheritanceBaseClass* baseclassptr; //base class pointer 
     inheritanceSubClass subclassRef; //sub class reference 
     baseclassptr = &subclassRef; //base class pointer is pointing to the subclass 
     baseclassptr->printName(); //Early Binding will happen here
     baseclassptr->show(); //Late Binding will happen here 
-
-    /*7. Adding digits of a number untill there is just a single digit*/
-    addDigits obj;
-    obj.addDigitsUntilSingle(22);
 }
 
 
