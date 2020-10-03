@@ -1,6 +1,8 @@
 #include<iostream>
-/*The concept of inheritance is used when code duplicacy need to be avoided or, we can say when we want to write re-uasable code.
-In C++, virtual function concept comes in when we want to acheive late binding*/
+/*The concept of inheritance is used  we want to write re-uasable code.
+In C++, virtual keyword comes in play when we want to acheive late binding(Runtime Polymorphism) in case of overridden methods*/
+/*In early binding, compiler do not take into account the address that pointer is pointing at.It just see the pointer type*/
+/*In Late binding(Runtime Polymorphism), compiler takes into account the address at which pointer is pointing. The address is given importance here*/
 
 class inheritanceBaseClass {
 

@@ -8,8 +8,9 @@
 #include "../structExamples/oddEven.cpp"
 #include "../vectorExamples/vectorExample.cpp"
 #include "../inheritanceExamples/virtualFunctionExample.cpp"
+#include "../addDigits/addDigits.cpp"
 
-/*Function defined to return a struct(two variables*/
+/*Function defined to return a struct(two variables)*/
 myStruct findEvenOdd(int number1, int number2)
 {
     myStruct s;
@@ -62,13 +63,17 @@ int main()
     }
     vectorExample.printResults();
 
-    /*6. Inheritance and virtual funtions concept*/
+    /*6. Inheritance and virtual functions concept*/
 
     inheritanceBaseClass *baseclassptr; //base class pointer 
     inheritanceSubClass subclassRef; //sub class reference 
     baseclassptr = &subclassRef; //base class pointer is pointing to the subclass 
     baseclassptr->printName(); //Early Binding will happen here
     baseclassptr->show(); //Late Binding will happen here 
+
+    /*7. Adding digits of a number untill there is just a single digit*/
+    addDigits obj;
+    obj.addDigitsUntilSingle(22);
 }
 
 
